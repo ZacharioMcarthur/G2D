@@ -30,7 +30,7 @@ Cette application permet aux écoles, collèges et universités de publiés diff
 
 
 * Interface utilisateur responsive (Web)
-* * Gestion CRUD des établissements (pour les moderateurs)
+* Gestion CRUD des établissements (pour les moderateurs)
 * Connexion avec une FedApi / base de données (si applicable)
 * Double authetification google
 
