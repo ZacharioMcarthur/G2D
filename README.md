@@ -52,7 +52,6 @@ git add .
 git commit -m "Initial commit du projet G2D/Premier commit du projet G2D"
 git remote add origin https://github.com/ZacharioMcarthur/G2D.git
 git remote -v
-git push -u origin main --force
 git branch -M main
 git branch
 git push -u origin main
@@ -74,6 +73,10 @@ php artisan make:migration add_google2fa_secret_to_users_table --table=users
 composer require simplesoftwareio/simple-qrcode
 composer require guzzlehttp/guzzle
 composer require fedapay/fedapay-php
-vendor/package 
+vendor/package
+composer init
+php artisan tinker
+composer dump-autoload
+
 ```
 
